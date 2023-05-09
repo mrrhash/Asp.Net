@@ -7,17 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace First_Project
 {
-    public partial class WebForm1 : System.Web.UI.Page
+    public partial class Master_Page : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
-
-        protected void Button1_Click(object sender, EventArgs e)
-        {
-            Label1.Text = "Welcome";
-            Label1.Visible = true;
-        }
     }
-} 
+}
